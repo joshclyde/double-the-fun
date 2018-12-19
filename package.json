@@ -1,0 +1,19 @@
+{
+  "name": "double-the-fun",
+  "version": "0.0.0",
+  "description": "do both wdio and cypress (hopefully)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshclyde/double-the-fun.git"
+  },
+  "author": "Josh Clyde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshclyde/double-the-fun/issues"
+  },
+  "homepage": "https://github.com/joshclyde/double-the-fun#readme"
+}
