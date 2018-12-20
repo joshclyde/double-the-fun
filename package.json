@@ -21,15 +21,11 @@
     "prettier:diff": "./node_modules/.bin/prettier --list-different \"src/**/*.ts\""
   },
   "devDependencies": {
+    "husky": "0.14.3",
     "nodemon": "1.18.2",
-    "pre-commit": "1.2.2",
     "prettier": "1.13.7",
     "ts-node": "7.0.0",
     "tslint": "5.12.0",
     "typescript": "2.9.2"
-  },
-  "pre-commit": [
-    "prettier:diff",
-    "lint"
-  ]
+  }
 }
