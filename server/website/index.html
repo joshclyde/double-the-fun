@@ -1,11 +1,36 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+  </head>
   <body>
-    <button onclick="myFunction()">Click me ❤️</button>
+    <button onclick="myFunction()" data-qa-id="heartButton">Click me ❤️</button>
     <p id="textAfterClick"></p>
     <script>
       function myFunction() {
         document.getElementById("textAfterClick").innerHTML = "Thanks for clicking me, you rock 👍";
       }
     </script>
+    <form style="width: 250px">
+      Username:
+      <br><input data-qa-id="usernameInput" type="text" name="username"><br>
+      Password:
+      <br><input data-qa-id="passwordInput" type="password" name="password"><br>
+      First name:
+      <br><input data-qa-id="firstNameInput" type="text" name="firstName"><br>
+      Last name:
+      <br><input data-qa-id="lastNameInput" type="text" name="lastName"
+        value="Mouse"><br>
+
+      <br><input data-qa-id="greenInput" type="radio" name="favoriteColor"
+        value="Green" checked>Green<br>
+      <input data-qa-id="yellowInput" type="radio" name="favoriteColor"
+        value="Yellow" checked>Yellow<br>
+      <input data-qa-id="redInput" type="radio" name="favoriteColor" value="Red"
+        checked>Red<br>
+
+      <br><input data-qa-id="submitButtonInput" type="submit"
+        name="submitButton" value="Submit"
+        style="width:100%"><br>
+    </form>
   </body>
 </html>

@@ -1,12 +1,19 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "*": [ "./*" ],
+        "src/*": ["./src/*"]
+    },
     "module": "commonjs",
     "target": "es2017",
     "noImplicitAny": true,
     "outDir": "./build/",
-    "sourceMap": true
+    "sourceMap": true,
+    "types": ["node", "webdriverio", "mocha"]
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*.ts",
+    "./tests/**/*.ts"
   ]
 }

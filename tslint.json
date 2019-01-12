@@ -6,6 +6,8 @@
     "object-literal-sort-keys": false,
     "no-any": true,
     "quotemark": [true, "double"],
-    "no-console": false
+    "no-console": false,
+    "no-var-requires": false,
+    "only-arrow-functions": false
   }
 }

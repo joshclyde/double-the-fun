@@ -13,3 +13,6 @@ yarn-debug.log*
 yarn-error.log*
 /.changelog
 .firebase
+drivers
+package-lock.json
+screenshots/
